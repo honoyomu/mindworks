@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "insforge": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@insforge/insforge-mcp@latest",
+        "--project_id",
+        "eb6ec747-ed0e-4d99-9d36-70358ab61e8e",
+        "--api_key",
+        "znDO05BJJ5WWE0OhokSra6VuxGJzrHumEkh5FV6Zs"
+      ]
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ]
+    }
+  }
+}

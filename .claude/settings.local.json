@@ -1,0 +1,53 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__insforge__get-instructions",
+      "mcp__insforge__get_project_metadata",
+      "mcp__insforge__get-db-api",
+      "mcp__insforge__get-auth-api",
+      "mcp__insforge__create_table",
+      "Bash(touch:*)",
+      "Bash(chmod:*)",
+      "Bash(env)",
+      "Bash(printenv)",
+      "Bash(export VITE_INSFORGE_PROJECT_ID=05e7ae36-45ea-4e09-94d7-5d82ff84398d)",
+      "Bash(export VITE_INSFORGE_API_KEY=nB7ZmrjCTINJu8xhAiTxRd4n8LGas04JM4MBJE2o)",
+      "Bash(./test-api.sh:*)",
+      "Bash(pkill:*)",
+      "Bash(true)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run type-check:*)",
+      "Bash(npm run lint)",
+      "Bash(mv:*)",
+      "Bash(npm create:*)",
+      "Bash(npx tailwindcss init:*)",
+      "Bash(ls:*)",
+      "Bash(rm:*)",
+      "Bash(npm test)",
+      "Bash(npm uninstall:*)",
+      "Bash(claude mcp add:*)",
+      "Bash(find:*)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__get-library-docs",
+      "mcp__insforge__get-instructions",
+      "mcp__insforge__get_project_metadata",
+      "mcp__insforge__get-db-api",
+      "mcp__insforge__create_table",
+      "mcp__insforge__get-auth-api",
+      "Bash(npm run dev:*)",
+      "Bash(node:*)",
+      "Bash(pkill:*)",
+      "Bash(npm init:*)",
+      "Bash(test:*)",
+      "Bash(./test-auth.sh:*)",
+      "Bash(npx kill-port:*)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "insforge",
+    "context7"
+  ]
+}
