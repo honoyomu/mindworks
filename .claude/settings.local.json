@@ -43,7 +43,10 @@
       "Bash(npm init:*)",
       "Bash(test:*)",
       "Bash(./test-auth.sh:*)",
-      "Bash(npx kill-port:*)"
+      "Bash(npx kill-port:*)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   },
   "enabledMcpjsonServers": [
